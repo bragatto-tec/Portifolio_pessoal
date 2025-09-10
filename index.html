@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bragatto|Portifólio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="particulas"></div>
+    <nav class="navegacao">
+        <ul>
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+    <article id="inicio" class="cabecalho">
+        <div>
+            <img src="" alt="Foto do Guilherme Bragatto" class="foto-perfil">
+            <h1> Guilherme Bragtto</h1>
+            <p class="cabecalho-sub-titulo">Programador full-stack</p>
+        </div>
+    </article>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Olá! Sou um desenvolver full-stack, atualmente no 2º semestre de sistemas de informação. Apaixonado em
+                novos desafios e oportunidades de aprendizado
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+
+            <div class="projetos-card">
+                <img src="" alt="projeto 1" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-produtos">Loja de carros</h3>
+                    <p class="paragrafo-projetos">loja virtuao moderna</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="" alt="projeto 2" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-produtos">página2</h3>
+                    <p class="paragrafo-projetos">texto demonstrativo</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="" alt="projeto 3" class="projetos-imagem">
+                <div class="caixa-textos-projeto"></div>
+                <h3 class="info-produtos">página 3</h3>
+                <p class="paragrafo-projetos">texto demonstrativo</p>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="grupo-form" id="nome">
+            </div>
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite Sua mensagem" rows="6" id="mensagem"></textarea>
+            </div>
+
+            <button type="submit" class="botao-form">Enviar Whatsapp</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
